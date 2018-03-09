@@ -14,4 +14,4 @@
 - Edit cookie info in Cookie info Admin
 
 ### Reguirements
-- >= Silverstripe 3.5.x
+-  Silverstripe 3.5.x - 3.6.x
