@@ -1,0 +1,158 @@
+de:
+  Cookie:
+    LabelName: "Cookie Name"
+    LabelSource: "Herkunft"
+    LabelDescription: "Beschreibung"
+    LabeltExpirationTime: "Ablaufzeit"
+    LabeltType: "Typ"
+  CookieType:
+    TypeDefaultTitle1: "Typ 1"
+    TypeDefaultSubtitle1: "Technische Cookies, vom Server zur Verwaltung der Sitzung erstellt"
+    TypeDefaultDescription1: "Diese Cookies sind zwingend erforderlich, damit Websites und deren Funktionen ordnungsgemäß arbeiten."
+    TypeDefaultTitle2: "Typ 2"
+    TypeDefaultSubtitle2: "Funktionelle Cookies"
+    TypeDefaultDescription2: "Diese Cookies ermöglichen es, Komfort und Leistung von Websites zu verbessern und verschiedene Funktionen zur Verfügung zu stellen."
+    TypeDefaultTitle3: "Typ 3"
+    TypeDefaultSubtitle3: "Analyse-/Leistungs-Cookies"
+    TypeDefaultDescription3: "Diese Cookies werden von Dritten, z.B. Analyse-Tools gesetzt. Sie werden in erster Linie verwendet, um Zugriffe auf unsere Seite zu analysieren."
+    TypeDefaultSubtitle4: "Social Media Cookies und andere Cookies von Dritten"
+    TypeDefaultDescription4: "Diese Cookies werden von Dritten, z.B. Social Networks gesetzt. Sie werden in erster Linie verwendet, um Social Media Inhalte wie Social Plugins auf unserer Seite zu integrieren."
+  CookieDefaultEntry:
+    # zwingend notwendig
+    PHPSESSID:
+      Hidden: 0
+      Title: "PHPSESSID"
+      Source: "First-Party"
+      ExpirationTime: "Ende der Sitzung"
+      Description: "Diese Cookies weisen Ihrem Gerät für die Dauer Ihres Besuches eine anonymisierte ID (Session ID) zu, um personalisierte Inhalte (z.B. zuletzt angesehene Produkte) anzeigen zu können."
+      Type: 1
+    # funktional
+    viewmode:
+      Hidden: 1
+      Title: "viewmode"
+      Source: "First-Party"
+      ExpirationTime: "90 Tage"
+      Description: "Dieses Cookie speichert die gewählte Darstellung, z.B. auf Übersichtsseiten. So können wir Ihnen bei Ihrem nächsten Besuch das vorher gewählte Layout darstellen."
+      Type: 2
+    cookieconsentstatus:
+      Hidden: 0
+      Title: "cookieconsent_status"
+      Source: "First-Party"
+      ExpirationTime: "2 Jahre"
+      Description: "Dieses Cookie zeigt an, dass Sie der Verwendung von Cookies auf unseren Seiten zustimmen. Es wird gesetzt, wenn Sie den Hinweislayer Verwendung von Cookies schließen."
+      Type: 2
+    # Google Analytics Universal: "analytics.js"
+    ga:
+      Hidden: 0
+      Title: "_ga"
+      Source: "Google Analytics"
+      ExpirationTime: "2 Jahre"
+      Description: "Dieses dauerhafte Cookie wird von Google Analytics verwendet, um Benutzer beim Sammeln von Informationen über Seitenbesuche zu unterscheiden. Dieses Cookie hilft uns, Website-Bereiche zu verbessern."
+      Type: 3
+    gat:
+      Hidden: 0
+      Title: "_gat"
+      Source: "Google Analytics"
+      ExpirationTime: "10 Minuten"
+      Description: "Dieses Cookie wird von Google Analytics verwendet, um die Anfragenrate auf ihre Server zu überwachen. Dieses Cookie hilft uns, Website-Bereiche zu verbessern."
+      Type: 3
+    # Google Analytics Traditionell: "ga.js"
+    utma:
+      Hidden: 1
+      Title: "__utma"
+      Source: "Google Analytics"
+      ExpirationTime: "2 Jahre vom setzen/Update"
+      Description: "Wird verwendet, um Benutzer und Sitzungen zu unterscheiden. Das Cookie wird erstellt, wenn die Javascript-Bibliothek ausgeführt wird und keine existierenden __utma-Cookies existieren. Das Cookie wird jedes Mal aktualisiert, wenn Daten an Google Analytics gesendet werden."
+      Type: 3
+    utmt:
+      Hidden: 1
+      Title: "__utmt"
+      Source: "Google Analytics"
+      ExpirationTime: "10 Minuten"
+      Description: "Drosselt die Anforderungsrate."
+      Type: 3
+    utmb:
+      Hidden: 1
+      Title: "__utmb"
+      Source: "Google Analytics"
+      ExpirationTime: "30 Minuten vom setzen/Update"
+      Description: "Wird verwendet, um neue Sitzungen / Besuche zu bestimmen. Das Cookie wird erstellt, wenn die Javascript-Bibliothek ausgeführt wird und keine existierenden __utmb-Cookies existieren. Das Cookie wird jedes Mal aktualisiert, wenn Daten an Google Analytics gesendet werden."
+      Type: 3
+    utmc:
+      Hidden: 1
+      Title: "__utmc"
+      Source: "Google Analytics"
+      ExpirationTime: "Ende der Sitzung"
+      Description: "Wird nicht in ga.js. genutzt. Ist mit urchin.js kompatibel. Geschichtlich gesehen arbeitet dieser Cookie in Verbindung mit dem the __utmb Cookie, um zu ermitteln, ob der Benutzer sich in einer neuen Sitzung befindet."
+      Type: 3
+    # Google Analytics Traditionell with _setCustomVar method
+    utmz:
+      Hidden: 1
+      Title: "__utmz"
+      Source: "Google Analytics"
+      ExpirationTime: "6 Monate vom setzen/Update"
+      Description: "Speichert die traffic source oder campaign, die zeigt, wie ein Benutzer auf Ihre Seite gekommen ist. Der Cookie entsteht, wenn javascript library ausgeführt wird und wird jedes Mal aktualisiert, wenn Daten an Google Analytics gesendet werden."
+      Type: 3
+    # Social: Facebook Button
+    facebooklike:
+      Hidden: 1
+      Title: "datr, reg_ext_ref, reg_fb_gate, reg_fb_ref"
+      Source: "Facebook"
+      ExpirationTime: "bis zu 2 Jahre"
+      Description: "Diese Cookies werden von Facebook bereitgestellt und gespeichert, wenn ein Besucher bei Facebook eingeloggt ist oder diesen Dienst anderweitig nutzt. Dies ermöglicht es einem Benutzer, einfach eine Seite zu kommentieren oder im Facebook-Netzwerk zu teilen."
+      Type: 4
+    # Social: Facebook einzelne Cookies
+    datr:
+      Hidden: 1
+      Title: "datr"
+      Source: "Facebook"
+      ExpirationTime: "2 Jahre vom setzen/Update"
+      Description: "Wird verwendet, um Facebook-Login-Status zu verfolgen, um Inhalte auf Facebook zu teilen."
+      Type: 4
+    regextref:
+      Hidden: 1
+      Title: "reg_ext_ref"
+      Source: "Facebook"
+      ExpirationTime: "Ende der Sitzung"
+      Description: "Diese Cookies werden von Facebook bereitgestellt und gespeichert, wenn ein Besucher bei Facebook eingeloggt ist oder diesen Dienst anderweitig nutzt. Dies ermöglicht es einem Benutzer, einfach eine Seite zu kommentieren oder im Facebook-Netzwerk zu teilen."
+      Type: 4
+    regfbgate:
+      Hidden: 1
+      Title: "reg_fb_gate"
+      Source: "Facebook"
+      ExpirationTime: "Ende der Sitzung"
+      Description: "Diese Cookies werden von Facebook bereitgestellt und gespeichert, wenn ein Besucher bei Facebook eingeloggt ist oder diesen Dienst anderweitig nutzt. Dies ermöglicht es einem Benutzer, einfach eine Seite zu kommentieren oder im Facebook-Netzwerk zu teilen."
+      Type: 4
+    regfbref:
+      Hidden: 1
+      Title: "reg_fb_ref"
+      Source: "Facebook"
+      ExpirationTime: "Ende der Sitzung"
+      Description: "Diese Cookies werden von Facebook bereitgestellt und gespeichert, wenn ein Besucher bei Facebook eingeloggt ist oder diesen Dienst anderweitig nutzt. Dies ermöglicht es einem Benutzer, einfach eine Seite zu kommentieren oder im Facebook-Netzwerk zu teilen."
+      Type: 4
+    # Social: Google+
+    googleplus:
+      Hidden: 1
+      Title: "NID, GALX, GAPS"
+      Source: "Google"
+      ExpirationTime: "bis zu 2 Jahre"
+      Description: "Google+ Button: Diese Cookies erlauben Google, Sie zu authentifizieren, wenn Sie die Website über die Google+ Schaltfläche teilen.\nAblaufzeit: NID 6 Monate / GAPS 2 Jahre / GALX Ende der Sitzung"
+      Type: 4
+    # Social: Twitter
+    twitter:
+      Hidden: 1
+      Title: "guest_id, pid, _twitter_sess"
+      Source: "Twitter"
+      ExpirationTime: "bis zu 2 Jahre"
+      Description: "Diese Cookies werden von Twitter erstellt. In diesem Fall sind sie vorhanden, weil ein Twitter-Widget oder Schaltfläche auf der Website verwendet wird und zu überwachen Überweisung Links und Login-Status\nAblaufzeit: guest_id 2 Jahre / pid 6 Monate / _twitter_sess Ende der Sitzung"
+      Type: 4
+
+
+
+#    cookiename:
+#      Hidden: 1
+#      Title: 
+#      Source: 
+#      ExpirationTime: 
+#      Description: 
+#      Type: 4
